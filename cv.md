@@ -20,7 +20,7 @@ I am a self-motivated and responsible person who can work well alone or in a tea
 * Figma, Photoshop
 
 ## Code example 
-
+```
 var min = function(list){
     let min = list[0];
     for (let i = 0; i < list.length; i++) {
@@ -40,7 +40,7 @@ var max = function(list){
     }
     return max;
 }
-
+```
 ## Education
 
 University: VSMU
