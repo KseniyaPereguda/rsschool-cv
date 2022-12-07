@@ -40,3 +40,11 @@ var max = function(list){
     }
     return max;
 }
+
+## Education
+
+University: VSMU
+## Languages
+
+* Russian (Native)
+* English (A2)
