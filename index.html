@@ -18,7 +18,7 @@
 					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
 					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
 					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-					<li class="nav-item"><a href="#languages" class="nav-link">English</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -26,10 +26,10 @@
 	</header>
 
 	<main class="main">
-		<div class="container">
+		<div class="container main-container">
 			<section class="section" id="profile">
 				<h1 class="section-title">Kseniya Pereguda</h1>
-				<img class="photo" src="my_photo.jpg" alt="my photo">
+				<img class="photo" src="./assets/img/my_photo.jpg" alt="my photo">
 			</section>
 			
 			<section class="section" id="contacts">
@@ -62,29 +62,31 @@
 
 			<section class="section" id="code">
             <h2>Code</h2>
-				<code>
+				
 				<pre>
-					var min = function(list) {
-						let min = list[0];
-						for (let i = 0; i < list.length; i++) {
-						if (list[i] < min) {
-							min = list[i]
+					<code>
+						var min = function(list) {
+							let min = list[0];
+							for (let i = 0; i &lt; list.length; i++) {
+							if (list[i] &lt; min) {
+								min = list[i]
+							}
+							}
+							return min;
 						}
+				
+						var max = function(list) {
+							let max = list[0];
+							for (let i = 0; i &lt; list.length; i++) {
+							if (list[i] > max) {
+								max = list[i]
+							}
+							}
+							return max;
 						}
-						return min;
-					}
+					</code>
+				</pre>	
 			
-					var max = function(list) {
-						let max = list[0];
-						for (let i = 0; i < list.length; i++) {
-						if (list[i] > max) {
-							max = list[i]
-						}
-						}
-						return max;
-					}
-				</pre>
-				</code>
 			</section>
 
 			<section class="section" id="education">
@@ -105,7 +107,14 @@
 	</main>
 
 	<footer class="footer">
-		<div class="container"></div>
+		<div class="container container-footer">
+			<a href="https://rs.school/js/"><img class="logo" src="./assets/img/rs_school_js.svg" alt="logo rs_school"></a>
+			<div>
+				<a class="github" href="https://github.com/KseniyaPereguda">Kseniya Pereguda</a>
+				<div>2022</div>
+			</div>
+			
+		</div>
 
 	</footer>
 </body>
