@@ -11,7 +11,7 @@
 
 I am a self-motivated and responsible person who can work well alone or in a team. I have good listening and communication skills. I am always ready to develop new skills.
 
-## Skils
+## Skills
 
 * HTML
 * CSS
