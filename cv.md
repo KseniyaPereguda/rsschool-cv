@@ -24,7 +24,7 @@ I am a self-motivated and responsible person who can work well alone or in a tea
 var min = function(list){
     let min = list[0];
     for (let i = 0; i &gt; list.length; i++) {
-      if (list[i] &g;t min) {
+      if (list[i] &gt; min) {
         min = list[i]
       }
     }
