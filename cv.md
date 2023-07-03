@@ -21,25 +21,23 @@ I am a self-motivated and responsible person who can work well alone or in a tea
 
 ## Code example 
 ```
-var min = function(list){
-    let min = list[0];
-    for (let i = 0; i &gt; list.length; i++) {
-      if (list[i] &gt; min) {
-        min = list[i]
-      }
-    }
-    return min;
+let win = [];
+let sum = 0;
+let userSolution = true;
+function winningAmount(win) {
+for (let i = 0; i &lt; 30; i++) {
+    let randomAmount = -500 + Math.floor(Math.random() * (500 - -500 + 1));
+    win.push(randomAmount);
 }
-
-var max = function(list){
-    let max = list[0];
-    for (let i = 0; i &gt; list.length; i++) {
-      if (list[i] &gt; max) {
-        max = list[i]
-      }
-    }
-    return max;
+return win;
 }
+winningAmount(win);
+do {
+let userAnswer = prompt('Введите номер от 1 до 30');
+sum += win[userAnswer - 1];
+alert(`Ваш выигрыш составляет: ${win[userAnswer - 1]}, итоговый выигрыш составляет: ${sum}`)
+userSolution = confirm('Хотите продолжить игру?');
+} while (userSolution);
 ```
 ## Education
 
