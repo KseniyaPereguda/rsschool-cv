@@ -1,69 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>cv</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<nav class="nav">
-				<ul class="nav-list">
-					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-				</ul>
-			</nav>
-		</div>
-
-	</header>
-
-	<main class="main">
-		<div class="container main-container">
-			<section class="section" id="profile">
-				<h1 class="section-title">Kseniya Pereguda</h1>
-				<img class="photo" src="./assets/img/my_photo.jpg" alt="my photo">
-			</section>
-			
-			<section class="section" id="contacts">
-				<h2>Contacts</h2>
-         <ul class="contacts-items">
-				<li class="contacts-item">location: Minsk, Belarus;</li>
-				<li class="contacts-item">phone: +375 29 801-07-07;</li>
-				<li class="contacts-item"> e-mail: ksyusha_pereguda@mail.ru;</li>
-				<li class="contacts-item">GitHub: KseniyaPereguda;</li>
-			</ul>
-			</section>
-
-			<section class="section" id="summary">
-				<h2>Summary</h2>
-				<p>
-					I am a self-motivated and responsible person who can work well alone or in a team. I have good listening and communication skills. I am always ready to develop new skills.
-				</p>
-			</section>
-
-			<section class="section" id="skills">
-				<h2>Skills</h2>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript (Basic)</li>
-					<li>GIT, GitHub</li>
-					<li>Figma, Photoshop</li>
-				</ul>
-			</section>
-
-			<section class="section" id="code">
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <div class="container main-container">
+        <section class="section" id="profile">
+            <h1 class="section-title">Kseniya Pereguda</h1>
+            <img class="photo" src="./assets/img/my_photo.jpg" alt="my photo">
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts-items">
+                <li class="contacts-item">location: Minsk, Belarus;</li>
+                <li class="contacts-item">phone: +375 29 801-11-11;</li>
+                <li class="contacts-item"> e-mail: ksyusha_pereguda@mail.ru;</li>
+                <li class="contacts-item">GitHub: KseniyaPereguda;</li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>
+                I am a self-motivated and responsible person who can work well alone or in a team. I have good listening
+                and communication skills. I am always ready to develop new skills.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>GIT, GitHub</li>
+                <li>Figma, Photoshop</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
             <h2>Code</h2>
-				
-				<pre>
+            <pre>
 					<code>
 						var min = function(list) {
 							let min = list[0];
@@ -78,44 +74,36 @@
 						var max = function(list) {
 							let max = list[0];
 							for (let i = 0; i &lt; list.length; i++) {
-							if (list[i] > max) {
+							if (list[i] &qt; max) {
 								max = list[i]
 							}
 							}
 							return max;
 						}
 					</code>
-				</pre>	
-			
-			</section>
-
-			<section class="section" id="education">
-				<h2>Education</h2>
-				<span>University: VSMU</span>
-			</section>
-
-			<section class="section" id="languages">
-				<h2>Languages</h2>
-				<ul>
-					<li>Russian (Native)</li>
-					<li>English (A2)</li>
-				</ul>
-         
-			</section>
-		</div>
-
-	</main>
-
-	<footer class="footer">
-		<div class="container container-footer">
-			<a href="https://rs.school/js/"><img class="logo" src="./assets/img/rs_school_js.svg" alt="logo rs_school"></a>
-			<div>
-				<a class="github" href="https://github.com/KseniyaPereguda">Kseniya Pereguda</a>
-				<div>2022</div>
-			</div>
-			
-		</div>
-
-	</footer>
+            </pre>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <span>University: VSMU</span>
+        </section>
+        <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian (Native)</li>
+                <li>English (A2)</li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container container-footer">
+        <a href="https://rs.school/js/"><img class="logo" src="./assets/img/rs_school_js.svg" alt="logo rs_school"></a>
+        <div>
+            <a class="github" href="https://github.com/KseniyaPereguda">Kseniya Pereguda</a>
+            <div>2023</div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
