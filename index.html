@@ -60,27 +60,25 @@
         <section class="section" id="code">
             <h2>Code</h2>
             <pre>
-					<code>
-						var min = function(list) {
-							let min = list[0];
-							for (let i = 0; i &lt; list.length; i++) {
-							if (list[i] &lt; min) {
-								min = list[i]
-							}
-							}
-							return min;
-						}
-				
-						var max = function(list) {
-							let max = list[0];
-							for (let i = 0; i &lt; list.length; i++) {
-							if (list[i] &qt; max) {
-								max = list[i]
-							}
-							}
-							return max;
-						}
-					</code>
+		<code>
+		    let win = [];
+		    let sum = 0;
+		    let userSolution = true;
+		    function winningAmount(win) {
+			for (let i = 0; i &lt; 30; i++) {
+			    let randomAmount = -500 + Math.floor(Math.random() * (500 - -500 + 1));
+			    win.push(randomAmount);
+			}
+			return win;
+		    }
+		    winningAmount(win);
+		    do {
+			let userAnswer = prompt('Введите номер от 1 до 30');
+			sum += win[userAnswer - 1];
+			alert(`Ваш выигрыш составляет: ${win[userAnswer - 1]}, итоговый выигрыш составляет: ${sum}`)
+			userSolution = confirm('Хотите продолжить игру?');
+		    } while (userSolution);
+		</code>
             </pre>
         </section>
         <section class="section" id="education">
