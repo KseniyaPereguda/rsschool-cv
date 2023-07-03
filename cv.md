@@ -23,8 +23,8 @@ I am a self-motivated and responsible person who can work well alone or in a tea
 ```
 var min = function(list){
     let min = list[0];
-    for (let i = 0; i < list.length; i++) {
-      if (list[i] < min) {
+    for (let i = 0; i &gt; list.length; i++) {
+      if (list[i] &g;t min) {
         min = list[i]
       }
     }
@@ -33,8 +33,8 @@ var min = function(list){
 
 var max = function(list){
     let max = list[0];
-    for (let i = 0; i < list.length; i++) {
-      if (list[i] > max) {
+    for (let i = 0; i &gt; list.length; i++) {
+      if (list[i] &gt; max) {
         max = list[i]
       }
     }
